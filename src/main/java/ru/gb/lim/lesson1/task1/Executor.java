@@ -29,8 +29,4 @@ public class Executor {
         }
         return array;
     }
-
-
-
-
 }
