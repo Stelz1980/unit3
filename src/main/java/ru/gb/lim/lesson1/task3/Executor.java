@@ -1,23 +1,48 @@
 package ru.gb.lim.lesson1.task3;
 
+import ru.gb.lim.lesson1.task3.exceptions.FruitException;
 import ru.gb.lim.lesson1.task3.fruits.Apple;
+import ru.gb.lim.lesson1.task3.fruits.Fruit;
+import ru.gb.lim.lesson1.task3.fruits.GoldenApple;
 import ru.gb.lim.lesson1.task3.fruits.Orange;
 
+import java.util.List;
+
 public class Executor {
-    public static void main(String[] args) {
+
+
+    public static void main(String[] args) throws FruitException {
         Box<Orange> boxOrange = new Box<>();
-        boxOrange.addFruit(new Orange());
-        boxOrange.addFruit(new Orange());
-        boxOrange.addFruit(new Orange());
-        boxOrange.addFruit(new Orange());
-
+        Box<Apple> boxApple1 = new Box<>();
         Box<Apple> boxApple = new Box<>();
-        boxApple.addFruit(new Apple());
-        boxApple.addFruit(new Apple());
-        boxApple.addFruit(new Apple());
-        boxApple.addFruit(new Apple());
+        Box<GoldenApple> boxGoldenApple = new Box<>();
 
+        boxOrange.addFruits(new Orange(), new Orange());
+        boxApple1.addFruits(new Apple(), new Apple(), new Apple());
+        boxApple.addFruits(new Apple(), new Apple(), new Apple());
+        boxApple.addFruits(new Apple());
+        boxGoldenApple.addFruits(new GoldenApple(), new GoldenApple(), new GoldenApple());
+
+        System.out.println(boxApple1.getWeight());
         System.out.println(boxApple.getWeight());
         System.out.println(boxOrange.getWeight());
+        System.out.println(boxGoldenApple.getWeight());
+        System.out.println("---------------");
+
+        boxApple1.removeFruits(new Apple(), new Apple());
+        System.out.println(boxApple1.getWeight());
+        System.out.println("---------------");
+
+        moveFruitsFromOneToAnotherBox(boxApple, boxApple1);
+        System.out.println(boxApple1.getWeight());
+        System.out.println(boxApple.getWeight());
+        System.out.println("---------------");
+    }
+
+    private static <T extends Fruit> void moveFruitsFromOneToAnotherBox(Box<T> from, Box<T> to) throws FruitException {
+        for (T fruit : from.getFruits()) {
+            to.addFruits(fruit);
+        }
+        from.getFruits().clear();
     }
 }
