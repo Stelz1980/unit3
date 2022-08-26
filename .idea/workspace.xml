@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd235684-7db8-4ed2-ab47-3296cff33c21" name="Changes" comment="ready to review">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lim/lesson4/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/lim/lesson1/task3/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lim/lesson1/task3/Box.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/lim/lesson1/task3/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lim/lesson1/task3/Executor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/lim/lesson1/task3/fruits/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lim/lesson1/task3/fruits/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/lim/lesson1/task3/fruits/GoldenApple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lim/lesson1/task3/fruits/GoldenApple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/lim/lesson4/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/lim/lesson4/Task1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Task1" />
+        <entry key="$PROJECT_DIR$" value="Lesson4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -210,7 +204,28 @@
       <option name="project" value="LOCAL" />
       <updated>1660667603578</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="ready to review">
+      <created>1661530613572</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661530613572</updated>
+    </task>
+    <task id="LOCAL-00013" summary="ready to review">
+      <created>1661530681097</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1661530681097</updated>
+    </task>
+    <task id="LOCAL-00014" summary="ready to review">
+      <created>1661530691417</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1661530691417</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

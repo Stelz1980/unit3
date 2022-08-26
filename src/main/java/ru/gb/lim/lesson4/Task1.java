@@ -4,7 +4,7 @@ public class Task1 {
 
     private volatile char currentLetter = 'A';
     private final Object monitor = new Object();
-    private static final int NUMBER_TO_REPEAT = 15;
+    private static final int NUMBER_TO_REPEAT = 5;
 
     private void printLetter(char letter) {
         synchronized (monitor) {
