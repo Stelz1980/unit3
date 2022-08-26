@@ -12,6 +12,7 @@ public class Executor {
 
 
     public static void main(String[] args) throws FruitException {
+
         Box<Orange> boxOrange = new Box<>();
         Box<Apple> boxApple1 = new Box<>();
         Box<Apple> boxApple = new Box<>();

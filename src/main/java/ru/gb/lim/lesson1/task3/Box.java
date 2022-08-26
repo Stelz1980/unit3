@@ -1,6 +1,5 @@
 package ru.gb.lim.lesson1.task3;
 
-import ru.gb.lim.lesson1.task1.exceptions.ArrayException;
 import ru.gb.lim.lesson1.task3.exceptions.FruitException;
 import ru.gb.lim.lesson1.task3.fruits.Fruit;
 
@@ -9,6 +8,10 @@ import java.util.List;
 
 public class Box<T extends Fruit> {
     private final List<T> fruits = new ArrayList<>();
+
+    public Box(T... f) {
+        fruits.addAll(List.of(f));
+    }
 
     public void addFruits(T... setFruits) {
         fruits.addAll(List.of(setFruits));
